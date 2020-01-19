@@ -1,8 +1,8 @@
 Pelirekisteri
 ; Kenttien järjestys tiedostossa on seuraava:
-;id|Pelin nimi    
-1  |Pubg |   
-2  |Counter Strike: Global Offensive  |   
-3  |Red Dead Redemption 2  |
-4  |Battlefield 4|
-5  |Monster Hunter World|
+;pid|Pelin nimi    					  |Alusta	  |Vuosi |;kid|Arvio|
+1   |Pubg 							  |Steam 	  |2010->|    |>75% |
+2   |Counter Strike: Global Offensive |Steam	  |2010->|    |>75% |
+3   |Red Dead Redemption 2 		      |Epic Games |2010->|    |>75% |
+4   |Battlefield 4					  |Origin     |2010->|    |>75% |
+5   |Monster Hunter World		      |Steam      |2010->|    |>75% |
