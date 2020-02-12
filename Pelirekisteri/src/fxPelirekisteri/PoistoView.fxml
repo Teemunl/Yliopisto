@@ -10,13 +10,13 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Text?>
 
-<BorderPane prefHeight="109.0" prefWidth="316.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxPelirekisteri.PelirekisteriGUIController">
+<BorderPane prefHeight="109.0" prefWidth="316.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fi.jyu.mit.fxgui.ModalController">
    <left>
       <HBox alignment="CENTER" prefHeight="71.0" prefWidth="316.0" BorderPane.alignment="CENTER">
          <children>
             <ImageView fitHeight="48.0" fitWidth="54.0">
                <image>
-                  <Image url="@../../../ohj2/kuvat/Huomio.png" />
+                  <Image url="@../../../kuvat/Huomio.png" />
                </image>
             </ImageView>
             <HBox prefHeight="71.0" prefWidth="40.0" />

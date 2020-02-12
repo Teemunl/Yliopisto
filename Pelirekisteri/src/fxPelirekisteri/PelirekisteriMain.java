@@ -20,12 +20,12 @@ public class PelirekisteriMain extends Application {
 			Scene scene = new Scene(root);
 			scene.getStylesheets().add(getClass().getResource("Pelirekisteri.css").toExternalForm());
 			primaryStage.setScene(scene);
+			primaryStage.setResizable(false);
 			primaryStage.show();
 		} catch(Exception e) {
 			e.printStackTrace();
 		}
 	}
-	
 	/**
 	 * @param args ei käytössä
 	 */
