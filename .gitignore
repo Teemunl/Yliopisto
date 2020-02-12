@@ -3,7 +3,7 @@
 ##############################
 .mtj.tmp/
 *.class
-*.jar
+*.jar !Pelirekisteri.jar
 *.war
 *.ear
 *.nar
