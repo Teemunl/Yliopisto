@@ -14,7 +14,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<BorderPane prefHeight="208.0" prefWidth="370.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fi.jyu.mit.fxgui.ModalController">
+<BorderPane prefHeight="208.0" prefWidth="370.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxPelirekisteri.LisaaPeliQUIController">
    <top>
       <VBox prefHeight="26.0" prefWidth="364.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
          <children>
@@ -97,8 +97,8 @@
    <bottom>
       <ButtonBar prefHeight="40.0" prefWidth="361.0" BorderPane.alignment="CENTER">
         <buttons>
-            <Button mnemonicParsing="false" text="Lisää" />
-          <Button cancelButton="true" mnemonicParsing="false" text="Peru" />
+            <Button mnemonicParsing="false" onAction="#handleLisaaPeli" text="Lisää" />
+          <Button fx:id="suljeIkkuna" cancelButton="true" mnemonicParsing="false" onAction="#handleLopeta" text="Peru" />
         </buttons>
          <padding>
             <Insets right="10.0" />

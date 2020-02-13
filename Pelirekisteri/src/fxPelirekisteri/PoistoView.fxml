@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Text?>
 
-<BorderPane prefHeight="109.0" prefWidth="316.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fi.jyu.mit.fxgui.ModalController">
+<BorderPane prefHeight="109.0" prefWidth="316.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxPelirekisteri.PoistaPeliQUIController">
    <left>
       <HBox alignment="CENTER" prefHeight="71.0" prefWidth="316.0" BorderPane.alignment="CENTER">
          <children>
@@ -36,8 +36,8 @@
    <bottom>
       <ButtonBar prefHeight="38.0" prefWidth="316.0" BorderPane.alignment="CENTER">
         <buttons>
-          <Button contentDisplay="CENTER" minHeight="21.0" mnemonicParsing="false" prefHeight="24.0" text="Kyllä" />
-            <Button cancelButton="true" mnemonicParsing="false" text="Ei" />
+          <Button contentDisplay="CENTER" minHeight="21.0" mnemonicParsing="false" onAction="#handlePoistaPeli" prefHeight="24.0" text="Kyllä" />
+            <Button fx:id="suljeIkkuna" cancelButton="true" mnemonicParsing="false" onAction="#handleLopeta" text="Ei" />
         </buttons>
          <opaqueInsets>
             <Insets />
