@@ -15,7 +15,7 @@
       <ButtonBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
         <buttons>
           <Button mnemonicParsing="false" onAction="#handlePalautaArvot" text="Valitse" />
-            <Button mnemonicParsing="false" onAction="#handleLisaaKategoria" text="LisÃ¤Ã¤ Kategoria" />
+            <Button mnemonicParsing="false" onAction="#handleLisaaKategoria" text="Lisää Kategoria" />
         </buttons>
       </ButtonBar>
    </bottom>

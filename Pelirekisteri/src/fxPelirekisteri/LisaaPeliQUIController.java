@@ -15,7 +15,6 @@ import fi.jyu.mit.fxgui.Dialogs;
 public class LisaaPeliQUIController implements ModalControllerInterface<String> {
 
     @FXML private Button suljeIkkuna;
-    @FXML private javafx.scene.control.Button closeButton;
     @FXML private void handleLopeta() {
         Stage stage = (Stage) suljeIkkuna.getScene().getWindow();
         stage.close();

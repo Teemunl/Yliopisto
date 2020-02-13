@@ -43,7 +43,7 @@ public class PelirekisteriGUIController implements Initializable {
 
     @FXML private void handleLisaaPeli() {
         //Dialogs.showMessageDialog("Ei osata vielä lisätä peliä");
-        ModalController.showModal(LisaaPeliQUIController.class.getResource("LisaaPeliView.fxml"), "Pelin Lisäys", null,"");
+        ModalController.showModal(PelirekisteriGUIController.class.getResource("LisaaPeliView.fxml"), "Pelin Lis�ys", null,"");
     }
     
     @FXML private void handleMuokkaa() {
@@ -51,7 +51,7 @@ public class PelirekisteriGUIController implements Initializable {
         Dialogs.showMessageDialog("Ei osata vielä muokata peliä");
     }
     @FXML private void handlePoistaPeli() {
-        ModalController.showModal(PoistaPeliQUIController.class.getResource("PoistoView.fxml"), "Pelin poisto", null,"");
+        ModalController.showModal(PelirekisteriGUIController.class.getResource("PoistoView.fxml"), "Pelin poisto", null,"");
         
     }
     @FXML private void handleTietoja() {

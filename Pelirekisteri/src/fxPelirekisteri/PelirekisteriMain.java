@@ -27,7 +27,7 @@ public class PelirekisteriMain extends Application {
 		}
 	}
 	/**
-	 * @param args ei kÃ¤ytÃ¶ssÃ¤
+	 * @param args ei käytössä
 	 */
 	public static void main(String[] args) {
 		launch(args);
